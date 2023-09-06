@@ -7,7 +7,7 @@ int main()
 	int size = sizeof(numbers) / sizeof(numbers[0]);
 	
 	int insertValue = 11;
-	int insertIndex = 10;
+	int insertIndex = 1;
 	
 	for(int i = size; i >insertIndex; i--){
 		numbers[i] = numbers[i-1];
